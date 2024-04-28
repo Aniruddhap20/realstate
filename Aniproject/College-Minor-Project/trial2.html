@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Industrial Section</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<button id="showCardsBtn" class="btn btn-primary mt-3">Show Cards</button>
+
+<div id="industrialSection" class="industrial-section" style="display: none;">
+    <div class="row">
+        <div class="col-3 mt-3">
+            <div class="card" style="width: 18rem;background-color: #fffaf7;">
+                <img class="card-img-top" src="./images/house-card3.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <!-- More card elements go here -->
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#showCardsBtn').click(function(){
+            $('#industrialSection').toggle(); // Show or hide the industrial section
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+.navbar-collapse .navbar-nav {
+    justify-content: flex-end;
+  }
+  
+  .navbar-collapse .navbar-nav .nav-link {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .navbar-collapse .navbar-nav .dark-mode-toggle {
+    order: 1;
+    margin-left: auto;
+  }
